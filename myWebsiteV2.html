@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>YouKnowHisName website</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouKnowHisName Website</title>
+    <link rel="stylesheet" type="text/css" href="myWebsiteV1.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="https://kit.fontawesome.com/3ade8dd65d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script charset="utf-8"
+    src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
+    type="text/javascript">
+  </script>
+
+  </head>
+  <body>
+    <!-- -------------Start Header ------------- -->
+    <header>
+      <a href="#" class="logo">GM!</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contract">Smart Contract</a></li>
+        <li><a href="#nft">Soulbound Badge</a></li>
+      </ul>
+
+      <a href="#" class="connect-wallet">Connect Wallet</a>
+    </header>
+
+    <!-- Start Home -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h4>this is</h4>
+        <h1>YouKnow<span>HisName</span></h1>
+        <h3>I'am a degen</h3>
+    
+    <!-- ------------- music section ------------- -->
+        <div class="music">
+          <p>Rick Astley - Never Gonna Give You Up......</p>
+          <img src="media/pause.png" id="icon">
+        </div>
+  
+        <audio source src="media/song.mp3" type="audio/mp3" id="Neversong" autoplay>
+        </audio>
+  
+        <audio id="mySong">
+          <source src="media/song.mp3" type="audio/mp3">
+        </audio>
+        </div>
+      </div>
+    </section>
+    <!-- ------------- About Me ------------- -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image/wow.png" />
+      </div>
+
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h5>Crypto <span class="one">& NFT degen</span></h5>
+        <p>
+          I don't trust the banking system (Yes…… I graduated in financial
+          services). Most of my money is on Ethereum. Into the crypto space
+          since Jan 2021. Bought some Crypto and NFTs and the rest is history.
+          <br /><br />In 2022, I quited my job, ape in crypto and self learn
+          coding because this is once-in a lifetime opportunity...... Honestly,
+          i'm just jobless and lazy. NGMI
+        </p>
+        <a href="https://twitter.com/youknow_hisname " target="_blank" class="btn"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <!-- -------------Start Smart contract --------------->
+    <section class="contract" id="contract">
+      <div class="center">
+        <h2>My Smart Contract</h2>
+        <p>
+         <span class="two">Live on Ethereum Goerli testnet | Get your Goerli ether <a
+            href="https://goerlifaucet.com/" target="_blank" style="text-decoration: none;"> <u>here</u> </a> </span>
+
+        </p>
+      </div>
+
+      <div class="contract-content">
+        <div class="container">
+
+        <div class="row">
+          <i class="fa-solid fa-key"></i>
+          <h3>Multi-Sig Wallet</h3>
+          <p>
+            Afraid of your (ex)wife stealing your money in joint account?  <br><br>This wallet requires more than one
+            user to sign and authorize a crypto transaction. It also allows mult-transactions in one authorization!
+          </p>
+          
+          <p style="text-align: center;">
+            <a class="button" href="https://goerli.etherscan.io/address/0x435a361eb1167cd40081b6b35f16006583d646f0#code" target="_blank">View</a>
+          </p>
+        </div>
+
+        <div class="row">
+          <i class="fa-regular fa-clock"></i>
+          <h3>Timelock Wallet</h3>
+          <p>
+            Tired of brokers selling you shitty saving plan? <br> Deposit ether into this
+            contract. Then, you are able to withdraw it on maturity date (i.e. 5 mins in this contract). That's how whales are made!
+          </p>
+
+          <p style="text-align: center;">
+            <a class="button" id= "timelockWallet" >Launch</a>
+          </p>
+        </div>
+
+        <div class="row">
+          <i class="fa-solid fa-dice"></i>
+          <h3>Jackpot Game</h3>
+          <p>
+             Why gambling on casino when you can use smart contract? <br> <br> Despoit 0.005 eth into this wallet and you
+            have certain chances to win ALL ether in this pool! <br><br>
+          </p>
+
+          <p style="text-align: center;">
+            <a class="button" id= "jackpotGame" >Launch</a>
+          </p>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- -------------Start nft------------- -->
+    <section class="nft" id="nft">
+
+      <div class="nft-text">
+        <h6>Soulbound Badge</h6>
+
+        <p>
+        <br>Soulbound Badge is a collection of NFTs- unique digital collectibles on the Ethereum Blockchain. These 1,000 ERC-721 tokens have been generated from AI model.
+        <br>Free mint, 1 per wallet. Join the crypto and AI revolution! <br><br>
+        <span class="three">
+          "Some say, the soul in the badges can be summoned when you are in need....."
+        </span>
+        </p>
+        
+        <a class="mint-button" id="mint-button">Mint Now</a>
+
+        <div class="nft-mediaButton">
+          <a href="https://opensea.io/collection/soulboundbadge " target="_blank" class="opensea-button"><img src="image/opensea.jpg"></i></a>
+          <a href="https://twitter.com/soulboundbadge" target="_blank" class="twitter-button"><img src="image/twitter2.jpg"></i></a>
+          </div>
+
+        </div>
+      
+      <div class="grid-container">
+        <div class="grid-item"><img src="image\385-removebg-preview.png" /></div>
+        <div class="grid-item"><img src="image\610-removebg-preview.png" /></div>
+        <div class="grid-item"><img src="image\220-removebg-preview.png" /></div>
+
+        <div class="grid-item"><img src="image\237-removebg-preview.png" /></div>
+        <div class="grid-item"><img src="image\sb-gif.gif " /></div>
+        <div class="grid-item"><img src="image\530-removebg-preview.png" /></div>
+
+
+        <div class="grid-item"><img src="image\845-removebg-preview.png" /></div>
+        <div class="grid-item"><img src="image\310-removebg-preview.png" /></div>
+        <div class="grid-item"><img src="image\208-removebg-preview.png" /></div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>"If you don’t believe it or don’t get it, I don’t have the time to try to convince you, sorry.” <br> -Satoshi
+        Nakamoto, the creator of Bitcoin</p><br>
+        <span class="four">This website, smart contracts and non-fungible tokens are made by youknowhisname.eth using programming language including HTML, CSS, JavaScript, Ethers.js, JSON and Solidity. </span> </p>
+    </footer>
+
+    <!-- -------------Link to JS------------- -->
+    <script type="text/javascript" src="myWebsiteV2.js"></script>
+    <!-- add "./" before the file name when deploy to aws -->
+  </body>
+</html>
